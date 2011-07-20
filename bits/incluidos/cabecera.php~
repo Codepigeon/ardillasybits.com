@@ -8,7 +8,6 @@ titulo($titulo_actual);
 //NOTA: TODO: cambiar nombre a las zonas para que sea mas organizado y general.
 ?>
 	<link rel="stylesheet" type="text/css" media="all" href="incluidos/style.css" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
 

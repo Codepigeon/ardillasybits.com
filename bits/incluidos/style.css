@@ -1,9 +1,18 @@
 @font-face {
-  font-family: 'Quattrocento Sans';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url('http://themes.googleusercontent.com/font?kit=efd6FGWWGX5Z3ztwLBrG9b2aU247V0zTzydO4RoO9Ok') format('woff');
-}
+	font-family: 'Helsinki';
+	src: url('helsinki-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('helsinki-webfont.woff') format('woff'), 
+	     url('helsinki-webfont.ttf')  format('truetype'),
+	     url('helsinki-webfont.svg#svgFontName') format('svg');
+	}
+
+@font-face {
+	font-family: 'Quattrocento Sans';
+	src: url('quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('quattrocentosans-regular-webfont.woff') format('woff'), 
+	     url('quattrocentosans-regular-webfont.ttf')  format('truetype'),
+	     url('quattrocentosans-regular-webfont.svg#svgFontName') format('svg');
+	}
 
 html {
 	background-color: #142a36;
@@ -28,8 +37,8 @@ a {
 }
 
 #encabezado h1 {
-	font-family: Helsinki, sans-serif;
-	width: 450px;
+	font-family: 'Helsinki', sans-serif;
+	width: 400px;
 	margin: auto;
 	float: left;
 	
@@ -42,12 +51,11 @@ a {
 #contenedor_menu {
 	float: right;
 	height: 18px;
-	width: 421px;
+	width: 512px;
 	background: #d7dde0;
 	padding: 8px 0;
 	margin: auto;
 	font-size: 16px;
-	font-family: Helsinki, sans-serif;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
@@ -65,7 +73,7 @@ a {
 	margin: 0 2px;
 }
 #contenedor_menu a {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Helsinki', sans-serif;
 	font-weight: bold;
 	color: #3F3F3F;
 	text-decoration: none;
